@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 130px 130px 230px 130px;
+
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+section:not(.content-block), .item {
+    padding: 10px 20px;
+    border: 3px solid #ceb9c5;
+    background-color: #d5ccce;
+    margin: 0 auto;
+}
+
+.item {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+}
+
+.wrapper {
+    font-size: 0;
+}
+
+.item {
+    font-size: 16px;
+}
